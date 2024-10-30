@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Entregas_Materiales [
+    <!ELEMENT Entregas_Materiales (Entrega_Material*)>
+    <!ATTLIST Entrega_Material Entrega_MaterialId ID #REQUIRED>
+    <!ELEMENT Entrega_Material (EntregaId, MaterialId, Cantidad)>
+    <!ELEMENT EntregaId (#PCDATA)>
+    <!ELEMENT MaterialId (#PCDATA)>
+    <!ELEMENT Cantidad (#PCDATA)>
+]>
+<Entregas_Materiales>
+  <Entrega_Material>
+    <EntregaId>1</EntregaId>
+    <MaterialId>2</MaterialId>
+    <Cantidad>5</Cantidad>
+  </Entrega_Material>
+  <Entrega_Material>
+    <EntregaId>2</EntregaId>
+    <MaterialId>2</MaterialId>
+    <Cantidad>5</Cantidad>
+  </Entrega_Material>
+  <Entrega_Material>
+    <EntregaId>2</EntregaId>
+    <MaterialId>1</MaterialId>
+    <Cantidad>5</Cantidad>
+  </Entrega_Material>
+  <Entrega_Material>
+    <EntregaId>3</EntregaId>
+    <MaterialId>1</MaterialId>
+    <Cantidad>5</Cantidad>
+  </Entrega_Material>
+  <Entrega_Material>
+    <EntregaId>4</EntregaId>
+    <MaterialId>2</MaterialId>
+    <Cantidad>4</Cantidad>
+  </Entrega_Material>
+  <Entrega_Material>
+    <EntregaId>5</EntregaId>
+    <MaterialId>2</MaterialId>
+    <Cantidad>6</Cantidad>
+  </Entrega_Material>
+  <Entrega_Material>
+    <EntregaId>6</EntregaId>
+    <MaterialId>3</MaterialId>
+    <Cantidad>5</Cantidad>
+  </Entrega_Material>
+  <Entrega_Material>
+    <EntregaId>7</EntregaId>
+    <MaterialId>2</MaterialId>
+    <Cantidad>2</Cantidad>
+  </Entrega_Material>
+  <Entrega_Material>
+    <EntregaId>7</EntregaId>
+    <MaterialId>1</MaterialId>
+    <Cantidad>1</Cantidad>
+  </Entrega_Material>
+  <Entrega_Material>
+    <EntregaId>8</EntregaId>
+    <MaterialId>3</MaterialId>
+    <Cantidad>5</Cantidad>
+  </Entrega_Material>
+  <Entrega_Material>
+    <EntregaId>9</EntregaId>
+    <MaterialId>1</MaterialId>
+    <Cantidad>4</Cantidad>
+  </Entrega_Material>
+  <Entrega_Materiales>
+    <EntregaId>10</EntregaId>
+    <MaterialId>6</MaterialId>
+    <Cantidad>1</Cantidad>
+  </Entrega_Materiales>
+  <Entrega_Materiales>
+    <EntregaId>2</EntregaId>
+    <MaterialId>6</MaterialId>
+    <Cantidad>2</Cantidad>
+  </Entrega_Materiales>
+  <Entrega_Materiales>
+    <EntregaId>3</EntregaId>
+    <MaterialId>3</MaterialId>
+    <Cantidad>1</Cantidad>
+  </Entrega_Materiales>
+  <Entrega_Materiales>
+    <EntregaId>4</EntregaId>
+    <MaterialId>6</MaterialId>
+    <Cantidad>2</Cantidad>
+  </Entrega_Materiales>
+  <Entrega_Materiales>
+    <EntregaId>5</EntregaId>
+    <MaterialId>1</MaterialId>
+    <Cantidad>1</Cantidad>
+  </Entrega_Materiales>
+  <Entrega_Materiales>
+    <EntregaId>6</EntregaId>
+    <MaterialId>3</MaterialId>
+    <Cantidad>1</Cantidad>
+  </Entrega_Materiales>
+  <Entrega_Materiales>
+    <EntregaId>7</EntregaId>
+    <MaterialId>6</MaterialId>
+    <Cantidad>1</Cantidad>
+  </Entrega_Materiales>
+  <Entrega_Materiales>
+    <EntregaId>8</EntregaId>
+    <MaterialId>6</MaterialId>
+    <Cantidad>1</Cantidad>
+  </Entrega_Materiales>
+  <Entrega_Materiales>
+    <EntregaId>9</EntregaId>
+    <MaterialId>1</MaterialId>
+    <Cantidad>1</Cantidad>
+  </Entrega_Materiales>
+  <Entrega_Materiales>
+    <EntregaId>10</EntregaId>
+    <MaterialId>3</MaterialId>
+    <Cantidad>1</Cantidad>
+  </Entrega_Materiales>
+  <Entrega_Materiales>
+    <EntregaId>11</EntregaId>
+    <MaterialId>3</MaterialId>
+    <Cantidad>10</Cantidad>
+  </Entrega_Materiales>
+</Entregas_Materiales>

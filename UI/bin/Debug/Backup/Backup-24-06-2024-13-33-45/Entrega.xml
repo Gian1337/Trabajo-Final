@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Entregas [
+    <!ELEMENT Entregas (Entrega*)>
+    <!ATTLIST Entrega EntregaId ID #REQUIRED>
+    <!ELEMENT Entrega (OrdenId, Fecha, Codigo, Estado)>
+    <!ELEMENT OrdenId (#PCDATA)>
+    <!ELEMENT Fecha (#PCDATA)>
+    <!ELEMENT Codigo (#PCDATA)>
+    <!ELEMENT Estado (#PCDATA)>
+]>
+<Entregas>
+  <Entrega EntregaId="1">
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <Codigo>AF7EC59D71</Codigo>
+    <Estado>Finalizado</Estado>
+    <OrdenId>1</OrdenId>
+  </Entrega>
+  <Entrega EntregaId="2">
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <Codigo>13389C560B</Codigo>
+    <Estado>Finalizado</Estado>
+    <OrdenId>2</OrdenId>
+  </Entrega>
+  <Entrega EntregaId="3">
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <Codigo>09BA1AE9B6</Codigo>
+    <Estado>Finalizado</Estado>
+    <OrdenId>4</OrdenId>
+  </Entrega>
+  <Entrega EntregaId="4">
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <Codigo>7781CF6E4E</Codigo>
+    <Estado>Finalizado</Estado>
+    <OrdenId>5</OrdenId>
+  </Entrega>
+  <Entrega EntregaId="5">
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <Codigo>51406CDB85</Codigo>
+    <Estado>Finalizado</Estado>
+    <OrdenId>3</OrdenId>
+  </Entrega>
+  <Entrega EntregaId="6">
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <Codigo>0F01248CF9</Codigo>
+    <Estado>Finalizado</Estado>
+    <OrdenId>6</OrdenId>
+  </Entrega>
+  <Entrega EntregaId="7">
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <Codigo>62424AF8E7</Codigo>
+    <Estado>Finalizado</Estado>
+    <OrdenId>7</OrdenId>
+  </Entrega>
+  <Entrega EntregaId="8">
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <Codigo>2E83DF20A0</Codigo>
+    <Estado>Finalizado</Estado>
+    <OrdenId>9</OrdenId>
+  </Entrega>
+  <Entrega EntregaId="9">
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <Codigo>ED09652D48</Codigo>
+    <Estado>Finalizado</Estado>
+    <OrdenId>11</OrdenId>
+  </Entrega>
+</Entregas>

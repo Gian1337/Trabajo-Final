@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Ordenes [
+    <!ELEMENT Ordenes (Orden*)>
+    <!ATTLIST Orden OrdenId ID #REQUIRED>
+    <!ELEMENT Orden (NumeroOrden, ClienteId, Fecha, ImporteTotal, EstadoId, FacturaCompraId)>
+    <!ELEMENT NumeroOrden (#PCDATA)>
+    <!ELEMENT ClienteId (#PCDATA)>
+    <!ELEMENT Fecha (#PCDATA)>
+    <!ELEMENT ImporteTotal (#PCDATA)>
+    <!ELEMENT EstadoId (#PCDATA)>
+    <!ELEMENT FacturaCompraId (#PCDATA)>
+]>
+<Ordenes>
+  <Orden OrdenId="1">
+    <NumeroOrden>O1</NumeroOrden>
+    <ClienteId>4</ClienteId>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <ImporteTotal>84.7</ImporteTotal>
+    <EstadoId>3</EstadoId>
+    <FacturaId>0</FacturaId>
+  </Orden>
+  <Orden OrdenId="2">
+    <NumeroOrden>O2</NumeroOrden>
+    <ClienteId>3</ClienteId>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <ImporteTotal>169.4</ImporteTotal>
+    <EstadoId>3</EstadoId>
+    <FacturaId>1</FacturaId>
+  </Orden>
+  <Orden OrdenId="3">
+    <NumeroOrden>O3</NumeroOrden>
+    <ClienteId>2</ClienteId>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <ImporteTotal>145.2</ImporteTotal>
+    <EstadoId>3</EstadoId>
+    <FacturaId>2</FacturaId>
+  </Orden>
+  <Orden OrdenId="4">
+    <NumeroOrden>O4</NumeroOrden>
+    <ClienteId>5</ClienteId>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <ImporteTotal>181.5</ImporteTotal>
+    <EstadoId>3</EstadoId>
+    <FacturaId>0</FacturaId>
+  </Orden>
+  <Orden OrdenId="5">
+    <NumeroOrden>O5</NumeroOrden>
+    <ClienteId>3</ClienteId>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <ImporteTotal>169.4</ImporteTotal>
+    <EstadoId>3</EstadoId>
+    <FacturaId>0</FacturaId>
+  </Orden>
+  <Orden OrdenId="6">
+    <NumeroOrden>O6</NumeroOrden>
+    <ClienteId>5</ClienteId>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <ImporteTotal>181.5</ImporteTotal>
+    <EstadoId>3</EstadoId>
+    <FacturaId>3</FacturaId>
+  </Orden>
+  <Orden OrdenId="7">
+    <NumeroOrden>O7</NumeroOrden>
+    <ClienteId>1</ClienteId>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <ImporteTotal>84.7</ImporteTotal>
+    <EstadoId>3</EstadoId>
+    <FacturaId>0</FacturaId>
+  </Orden>
+  <Orden OrdenId="8">
+    <NumeroOrden>O8</NumeroOrden>
+    <ClienteId>5</ClienteId>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <ImporteTotal>181.5</ImporteTotal>
+    <EstadoId>1</EstadoId>
+    <FacturaId>0</FacturaId>
+  </Orden>
+  <Orden OrdenId="9">
+    <NumeroOrden>O9</NumeroOrden>
+    <ClienteId>2</ClienteId>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <ImporteTotal>84.7</ImporteTotal>
+    <EstadoId>3</EstadoId>
+    <FacturaId>0</FacturaId>
+  </Orden>
+  <Orden OrdenId="10">
+    <NumeroOrden>O10</NumeroOrden>
+    <ClienteId>4</ClienteId>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <ImporteTotal>181.5</ImporteTotal>
+    <EstadoId>2</EstadoId>
+    <FacturaId>0</FacturaId>
+  </Orden>
+  <Orden OrdenId="11">
+    <NumeroOrden>O11</NumeroOrden>
+    <ClienteId>3</ClienteId>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <ImporteTotal>145.2</ImporteTotal>
+    <EstadoId>3</EstadoId>
+    <FacturaId>0</FacturaId>
+  </Orden>
+</Ordenes>

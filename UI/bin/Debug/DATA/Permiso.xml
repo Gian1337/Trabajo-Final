@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Permisos [
+    <!ELEMENT Permisos (Permiso*)>
+    <!ATTLIST Permiso PermisoId ID #REQUIRED>
+    <!ELEMENT Permiso (Nombre, Rol)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT Rol (#PCDATA)>
+]>
+<Permisos>
+  <Permiso PermisoId="1">
+    <Nombre>Administrativo</Nombre>
+    <Rol>True</Rol>
+  </Permiso>
+  <Permiso PermisoId="2">
+    <Nombre>Gestionar Orden</Nombre>
+    <Rol>False</Rol>
+  </Permiso>
+  <Permiso PermisoId="3">
+    <Nombre>Generar factura</Nombre>
+    <Rol>False</Rol>
+  </Permiso>
+  <Permiso PermisoId="4">
+    <Nombre>Generar orden de entrega</Nombre>
+    <Rol>False</Rol>
+  </Permiso>
+  <Permiso PermisoId="5">
+    <Nombre>Gerente de Producción</Nombre>
+    <Rol>True</Rol>
+  </Permiso>
+  <Permiso PermisoId="6">
+    <Nombre>Supervisar ordenes de produccion</Nombre>
+    <Rol>False</Rol>
+  </Permiso>
+  <Permiso PermisoId="7">
+    <Nombre>Operario</Nombre>
+    <Rol>True</Rol>
+  </Permiso>
+  <Permiso PermisoId="8">
+    <Nombre>Realizar orden de produccion</Nombre>
+    <Rol>False</Rol>
+  </Permiso>
+  <Permiso PermisoId="9">
+    <Nombre>Distribuidor</Nombre>
+    <Rol>True</Rol>
+  </Permiso>
+  <Permiso PermisoId="10">
+    <Nombre>Gestionar orden de entrega</Nombre>
+    <Rol>False</Rol>
+  </Permiso>
+  <Permiso PermisoId="11">
+    <Nombre>Administrador del sistema</Nombre>
+    <Rol>True</Rol>
+  </Permiso>
+  <Permiso PermisoId="12">
+    <Nombre>Gestor de permisos de usuario</Nombre>
+    <Rol>False</Rol>
+  </Permiso>
+  <Permiso PermisoId="13">
+    <Nombre>Gestor de usuarios</Nombre>
+    <Rol>False</Rol>
+  </Permiso>
+  <Permiso PermisoId="14">
+    <Nombre>Backup</Nombre>
+    <Rol>False</Rol>
+  </Permiso>
+  <Permiso PermisoId="15">
+    <Nombre>Logs</Nombre>
+    <Rol>False</Rol>
+  </Permiso>
+  <Permiso PermisoId="16">
+    <Nombre>Generar orden de produccion</Nombre>
+    <Rol>false</Rol>
+  </Permiso>
+  <Permiso PermisoId="17">
+    <Nombre>Dashboard</Nombre>
+    <Rol>false</Rol>
+  </Permiso>
+  <Permiso PermisoId="19">
+    <Nombre>Ver Ordenes</Nombre>
+    <Rol>false</Rol>
+  </Permiso>
+  <Permiso PermisoId="21">
+    <Nombre>Registrar clientes</Nombre>
+    <Rol>false</Rol>
+  </Permiso>
+  <Permiso PermisoId="22">
+    <Nombre>Profesor</Nombre>
+    <Rol>True</Rol>
+  </Permiso>
+  <Permiso PermisoId="23">
+    <Nombre>Director</Nombre>
+    <Rol>True</Rol>
+  </Permiso>
+</Permisos>

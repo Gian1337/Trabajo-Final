@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE OrdenesProduccion_Materiales [
+    <!ELEMENT OrdenesProduccion_Materiales (OrdenProduccion_Material*)>
+    <!ATTLIST OrdenProduccion_Material OrdenProduccion_MaterialId ID #REQUIRED>
+    <!ELEMENT OrdenProduccion_Material (OrdenProduccionId, MaterialId, Cantidad)>
+    <!ELEMENT OrdenProduccionId (#PCDATA)>
+    <!ELEMENT MaterialId (#PCDATA)>
+    <!ELEMENT Cantidad (#PCDATA)>
+]>
+<OrdenesProduccion_Materiales>
+  <OrdenProduccion_Material OrdenProduccion_MaterialId="1">
+    <OrdenMaterialId>1</OrdenMaterialId>
+    <MaterialId>5</MaterialId>
+    <Cantidad>10</Cantidad>
+  </OrdenProduccion_Material>
+  <OrdenProduccion_Material OrdenProduccion_MaterialId="1">
+    <OrdenMaterialId>2</OrdenMaterialId>
+    <MaterialId>6</MaterialId>
+    <Cantidad>10</Cantidad>
+  </OrdenProduccion_Material>
+  <OrdenProduccion_Material OrdenProduccion_MaterialId="1">
+    <OrdenMaterialId>3</OrdenMaterialId>
+    <MaterialId>2</MaterialId>
+    <Cantidad>10</Cantidad>
+  </OrdenProduccion_Material>
+  <OrdenProduccion_Material OrdenProduccion_MaterialId="1">
+    <OrdenMaterialId>4</OrdenMaterialId>
+    <MaterialId>1</MaterialId>
+    <Cantidad>1</Cantidad>
+  </OrdenProduccion_Material>
+</OrdenesProduccion_Materiales>

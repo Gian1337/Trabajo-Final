@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Facturas [
+    <!ELEMENT Facturas (Factura*)>
+    <!ATTLIST Factura FacturaId ID #REQUIRED>
+    <!ELEMENT Factura (NumeroFactura, Fecha, TipoFactura, Total)>
+    <!ELEMENT NumeroFactura (#PCDATA)>
+    <!ELEMENT Fecha (#PCDATA)>
+    <!ELEMENT TipoFactura (#PCDATA)>
+    <!ELEMENT Total (#PCDATA)>
+]>
+<Facturas>
+  <Factura FacturaId="1">
+    <NumeroFactura>1</NumeroFactura>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <TipoFactura>C</TipoFactura>
+    <Total>169.4</Total>
+  </Factura>
+  <Factura FacturaId="2">
+    <NumeroFactura>2</NumeroFactura>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <TipoFactura>C</TipoFactura>
+    <Total>145.2</Total>
+  </Factura>
+  <Factura FacturaId="3">
+    <NumeroFactura>3</NumeroFactura>
+    <Fecha>22/6/2024 00:00:00</Fecha>
+    <TipoFactura>C</TipoFactura>
+    <Total>181.5</Total>
+  </Factura>
+</Facturas>

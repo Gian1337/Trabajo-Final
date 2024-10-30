@@ -1,0 +1,15 @@
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\bin\Debug\BLL.dll
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\bin\Debug\BLL.pdb
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\bin\Debug\Abstraccion.dll
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\bin\Debug\BE.dll
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\bin\Debug\MPP.dll
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\bin\Debug\Servicio.dll
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\bin\Debug\Abstraccion.pdb
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\bin\Debug\BE.pdb
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\bin\Debug\MPP.pdb
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\bin\Debug\Servicio.pdb
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\obj\Debug\BLL.dll
+C:\Users\Gianluca\Desktop\TrabajoFinal\BLL\obj\Debug\BLL.pdb

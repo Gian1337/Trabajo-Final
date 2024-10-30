@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Depositos_Materiales [
+    <!ELEMENT Depositos_Materiales (Deposito_Material*)>
+    <!ATTLIST Deposito_Material Deposito_MaterialId ID #REQUIRED>
+    <!ELEMENT Deposito_Material (DepositoId, MaterialId, Cantidad, FechaVencimiento, Lote)>
+    <!ELEMENT DepositoId (#PCDATA)>
+    <!ELEMENT MaterialId (#PCDATA)>
+    <!ELEMENT Cantidad (#PCDATA)>
+    <!ELEMENT FechaVencimiento (#PCDATA)>
+    <!ELEMENT Lote (#PCDATA)>
+]>
+<Depositos_Materiales>
+  <Deposito_Material Deposito_MaterialId="1">
+    <DepositoId>1</DepositoId>
+    <MaterialId>2</MaterialId>
+    <Cantidad>1000</Cantidad>
+    <FechaVencimiento></FechaVencimiento>
+    <Lote>240303</Lote>
+  </Deposito_Material>
+  <Deposito_Material Deposito_MaterialId="2">
+    <DepositoId>1</DepositoId>
+    <MaterialId>1</MaterialId>
+    <Cantidad>0</Cantidad>
+    <FechaVencimiento></FechaVencimiento>
+    <Lote>231027</Lote>
+  </Deposito_Material>
+  <Deposito_Material Deposito_MaterialId="3">
+    <DepositoId>2</DepositoId>
+    <MaterialId>4</MaterialId>
+    <Cantidad>8798</Cantidad>
+    <FechaVencimiento></FechaVencimiento>
+    <Lote>231123</Lote>
+  </Deposito_Material>
+  <Deposito_Material Deposito_MaterialId="4">
+    <DepositoId>2</DepositoId>
+    <MaterialId>5</MaterialId>
+    <Cantidad>100</Cantidad>
+    <FechaVencimiento></FechaVencimiento>
+    <Lote>240623</Lote>
+  </Deposito_Material>
+  <Deposito_Material Deposito_MaterialId="5">
+    <DepositoId>2</DepositoId>
+    <MaterialId>6</MaterialId>
+    <Cantidad>0</Cantidad>
+    <FechaVencimiento></FechaVencimiento>
+    <Lote>240623</Lote>
+  </Deposito_Material>
+  <Deposito_Material Deposito_MaterialId="6">
+    <DepositoId>1</DepositoId>
+    <MaterialId>3</MaterialId>
+    <Cantidad>1490</Cantidad>
+    <FechaVencimiento></FechaVencimiento>
+    <Lote>240224</Lote>
+  </Deposito_Material>
+</Depositos_Materiales>

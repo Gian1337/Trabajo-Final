@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE OrdenesProduccion [
+    <!ELEMENT OrdenesProduccion (OrdenProduccion*)>
+    <!ATTLIST OrdenProduccion OrdenProduccionId ID #REQUIRED>
+    <!ELEMENT OrdenProduccion (Numero, Fecha, Cantidad, Lote, Pasos, PedidoMateriaPrimaId, EmpleadoId)>
+    <!ELEMENT Numero (#PCDATA)>
+    <!ELEMENT Fecha (#PCDATA)>
+    <!ELEMENT Cantidad (#PCDATA)>
+    <!ELEMENT Lote (#PCDATA)>
+    <!ELEMENT Pasos (#PCDATA)>
+    <!ELEMENT PedidoMateriaPrimaId (#PCDATA)>
+    <!ELEMENT EmpleadoId (#PCDATA)>
+]>
+<OrdenesProduccion>
+  <OrdenProduccion OrdenProduccionId="3">
+    <Numero>3</Numero>
+    <Fecha>6/7/2024 14:08:27</Fecha>
+    <Cantidad>10</Cantidad>
+    <Lote>240623</Lote>
+    <Pasos>Fundir plastico-Mezclar-Enfriar-</Pasos>
+    <PedidoMateriaPrimaId>0</PedidoMateriaPrimaId>
+    <EmpleadoId>3</EmpleadoId>
+  </OrdenProduccion>
+  <OrdenProduccion OrdenProduccionId="4">
+    <Numero>4</Numero>
+    <Fecha>23/6/2024 16:08:45</Fecha>
+    <Cantidad>1</Cantidad>
+    <Lote>240623</Lote>
+    <Pasos>Fundir metal-Mezclar-Enfriar-Desmoldar-</Pasos>
+    <PedidoMaterialId>0</PedidoMaterialId>
+    <EmpleadoId>0</EmpleadoId>
+  </OrdenProduccion>
+  <OrdenProduccion OrdenProduccionId="5">
+    <Numero>5</Numero>
+    <Fecha>29/6/2024 13:55:37</Fecha>
+    <Cantidad>5</Cantidad>
+    <Lote>240629</Lote>
+    <Pasos>Cocinar-Mezclar-</Pasos>
+    <PedidoMaterialId>0</PedidoMaterialId>
+    <EmpleadoId>0</EmpleadoId>
+  </OrdenProduccion>
+</OrdenesProduccion>

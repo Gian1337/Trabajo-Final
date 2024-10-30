@@ -1,0 +1,6 @@
+C:\Users\Gianluca\Desktop\TrabajoFinal\Abstraccion\bin\Debug\Abstraccion.dll
+C:\Users\Gianluca\Desktop\TrabajoFinal\Abstraccion\bin\Debug\Abstraccion.pdb
+C:\Users\Gianluca\Desktop\TrabajoFinal\Abstraccion\obj\Debug\Abstraccion.csproj.AssemblyReference.cache
+C:\Users\Gianluca\Desktop\TrabajoFinal\Abstraccion\obj\Debug\Abstraccion.csproj.CoreCompileInputs.cache
+C:\Users\Gianluca\Desktop\TrabajoFinal\Abstraccion\obj\Debug\Abstraccion.dll
+C:\Users\Gianluca\Desktop\TrabajoFinal\Abstraccion\obj\Debug\Abstraccion.pdb

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Empleados [
+    <!ELEMENT Empleados (Empleado*)>
+    <!ATTLIST Empleado EmpleadoId ID #REQUIRED>
+    <!ELEMENT Empleado (NombreUsuario, Password, Nombre, Apellido, Area)>
+    <!ELEMENT NombreUsuario (#PCDATA)>
+    <!ELEMENT Password (#PCDATA)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT Apellido (#PCDATA)>
+    <!ELEMENT Area (#PCDATA)>
+]>
+<Empleados>
+  <Empleado EmpleadoId="1">
+    <NombreUsuario>admin</NombreUsuario>
+    <Password>MU8Qn8Oz3FM=</Password>
+    <Nombre>Gianluca</Nombre>
+    <Apellido>Carlini</Apellido>
+    <Area>Administrador</Area>
+  </Empleado>
+  <Empleado EmpleadoId="2">
+    <NombreUsuario>javip</NombreUsuario>
+    <Password>xRiXaQJiQmk=</Password>
+    <Nombre>Javier</Nombre>
+    <Apellido>Perez</Apellido>
+    <Area>Administrativo</Area>
+  </Empleado>
+  <Empleado EmpleadoId="3">
+    <NombreUsuario>carlos</NombreUsuario>
+    <Password>xRiXaQJiQmk=</Password>
+    <Nombre>Carlos</Nombre>
+    <Apellido>Rodriguez</Apellido>
+    <Area>Produccion</Area>
+  </Empleado>
+  <Empleado EmpleadoId="4">
+    <NombreUsuario>jmilei</NombreUsuario>
+    <Password>xRiXaQJiQmk=</Password>
+    <Nombre>Javier</Nombre>
+    <Apellido>Milei</Apellido>
+    <Area>Entregas</Area>
+  </Empleado>
+  <Empleado EmpleadoId="5">
+    <NombreUsuario>test</NombreUsuario>
+    <Password>xRiXaQJiQmk=</Password>
+    <Nombre>test</Nombre>
+    <Apellido>test</Apellido>
+    <Area>Entregas</Area>
+  </Empleado>
+</Empleados>

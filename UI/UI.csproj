@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{88B43738-B133-4B46-A0DC-DC8B33236F3D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.4, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.4\lib\net461\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frBackUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frBackUp.Designer.cs">
+      <DependentUpon>frBackUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frDashboard.Designer.cs">
+      <DependentUpon>frDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frDetalleOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frDetalleOrden.Designer.cs">
+      <DependentUpon>frDetalleOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frEmpleado.Designer.cs">
+      <DependentUpon>frEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frGenerarFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frGenerarFactura.Designer.cs">
+      <DependentUpon>frGenerarFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frGenerarOrdenEntrega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frGenerarOrdenEntrega.Designer.cs">
+      <DependentUpon>frGenerarOrdenEntrega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frGenerarOrdenProduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frGenerarOrdenProduccion.Designer.cs">
+      <DependentUpon>frGenerarOrdenProduccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frGestionarOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frGestionarOrden.Designer.cs">
+      <DependentUpon>frGestionarOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frGestionarOrdenEntrega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frGestionarOrdenEntrega.Designer.cs">
+      <DependentUpon>frGestionarOrdenEntrega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frGestorCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frGestorCliente.Designer.cs">
+      <DependentUpon>frGestorCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frGestorPermisos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frGestorPermisos.Designer.cs">
+      <DependentUpon>frGestorPermisos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frGestorUserEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frGestorUserEmpleado.Designer.cs">
+      <DependentUpon>frGestorUserEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frInputFecha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frInputFecha.Designer.cs">
+      <DependentUpon>frInputFecha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frLogin.Designer.cs">
+      <DependentUpon>frLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frLogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frLogs.Designer.cs">
+      <DependentUpon>frLogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frMenu.Designer.cs">
+      <DependentUpon>frMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frPedidoMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frPedidoMaterial.Designer.cs">
+      <DependentUpon>frPedidoMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frRealizarOrdenProduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frRealizarOrdenProduccion.Designer.cs">
+      <DependentUpon>frRealizarOrdenProduccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frSeleccionCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frSeleccionCliente.Designer.cs">
+      <DependentUpon>frSeleccionCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frSupervisarOrdenesProduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frSupervisarOrdenesProduccion.Designer.cs">
+      <DependentUpon>frSupervisarOrdenesProduccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frVerFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frVerFactura.Designer.cs">
+      <DependentUpon>frVerFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frVerOrdenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frVerOrdenes.Designer.cs">
+      <DependentUpon>frVerOrdenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frBackUp.resx">
+      <DependentUpon>frBackUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frDashboard.resx">
+      <DependentUpon>frDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frDetalleOrden.resx">
+      <DependentUpon>frDetalleOrden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frEmpleado.resx">
+      <DependentUpon>frEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frGenerarFactura.resx">
+      <DependentUpon>frGenerarFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frGenerarOrdenEntrega.resx">
+      <DependentUpon>frGenerarOrdenEntrega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frGenerarOrdenProduccion.resx">
+      <DependentUpon>frGenerarOrdenProduccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frGestionarOrden.resx">
+      <DependentUpon>frGestionarOrden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frGestionarOrdenEntrega.resx">
+      <DependentUpon>frGestionarOrdenEntrega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frGestorCliente.resx">
+      <DependentUpon>frGestorCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frGestorPermisos.resx">
+      <DependentUpon>frGestorPermisos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frGestorUserEmpleado.resx">
+      <DependentUpon>frGestorUserEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frInputFecha.resx">
+      <DependentUpon>frInputFecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frLogin.resx">
+      <DependentUpon>frLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frLogs.resx">
+      <DependentUpon>frLogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frMenu.resx">
+      <DependentUpon>frMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frPedidoMaterial.resx">
+      <DependentUpon>frPedidoMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frRealizarOrdenProduccion.resx">
+      <DependentUpon>frRealizarOrdenProduccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frSeleccionCliente.resx">
+      <DependentUpon>frSeleccionCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frSupervisarOrdenesProduccion.resx">
+      <DependentUpon>frSupervisarOrdenesProduccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frVerFactura.resx">
+      <DependentUpon>frVerFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frVerOrdenes.resx">
+      <DependentUpon>frVerOrdenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE\BE.csproj">
+      <Project>{57ae13da-8912-4ce1-935a-d16ea0ef5b2e}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{56ec3bdb-3560-4546-8d9e-52f3c2bf36e0}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

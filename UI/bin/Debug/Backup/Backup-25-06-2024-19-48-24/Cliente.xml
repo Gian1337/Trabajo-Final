@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Clientes [
+    <!ELEMENT Clientes (Cliente*)>
+    <!ATTLIST Cliente ClienteId ID #REQUIRED>
+    <!ELEMENT Cliente (Nombre, Apellido, NroDocumento, TipoDocumento, Direccion, DireccionEntrega, Email, Telefono, RazonSocial)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT Apellido (#PCDATA)>
+    <!ELEMENT NroDocumento (#PCDATA)>
+    <!ELEMENT TipoDocumento (#PCDATA)>
+    <!ELEMENT Direccion (#PCDATA)>
+    <!ELEMENT DireccionEntrega (#PCDATA)>
+    <!ELEMENT Email (#PCDATA)>
+    <!ELEMENT Telefono (#PCDATA)>
+    <!ELEMENT RazonSocial (#PCDATA)>
+]>
+<Clientes>
+  <Cliente ClienteId="1">
+    <Nombre>Gianluca</Nombre>
+    <Apellido>Carlini</Apellido>
+    <NroDocumento>41655321</NroDocumento>
+    <TipoDocumento>DNI</TipoDocumento>
+    <Direccion>Santa fe 2021</Direccion>
+    <DireccionEntrega>Santa fe 2021</DireccionEntrega>
+    <Email>gboca@hotmail.com</Email>
+    <Telefono>3416635156</Telefono>
+    <RazonSocial>Gianluca</RazonSocial>
+  </Cliente>
+  <Cliente ClienteId="2">
+    <Nombre>Lionel</Nombre>
+    <Apellido>Messi</Apellido>
+    <NroDocumento>35191949</NroDocumento>
+    <TipoDocumento>DNI</TipoDocumento>
+    <Direccion>San Juan 1939</Direccion>
+    <DireccionEntrega>San Juan 1939</DireccionEntrega>
+    <Email>leomessi@hotmail.com</Email>
+    <Telefono>341881040</Telefono>
+    <RazonSocial>GOAT</RazonSocial>
+  </Cliente>
+  <Cliente ClienteId="3">
+    <Nombre>Juan</Nombre>
+    <Apellido>Perez</Apellido>
+    <NroDocumento>25879643</NroDocumento>
+    <TipoDocumento>DNI</TipoDocumento>
+    <Direccion>Av. Libertador 1234</Direccion>
+    <DireccionEntrega>Av. Libertador 1234</DireccionEntrega>
+    <Email>juan.perez@example.com</Email>
+    <Telefono>1154321876</Telefono>
+    <RazonSocial>Empresa Perez</RazonSocial>
+  </Cliente>
+  <Cliente ClienteId="4">
+    <Nombre>Maria</Nombre>
+    <Apellido>Gonzalez</Apellido>
+    <NroDocumento>30654789</NroDocumento>
+    <TipoDocumento>DNI</TipoDocumento>
+    <Direccion>Calle Falsa 742</Direccion>
+    <DireccionEntrega>Calle Falsa 742</DireccionEntrega>
+    <Email>maria.gonzalez@example.com</Email>
+    <Telefono>1123456789</Telefono>
+    <RazonSocial>Consultora Gonzalez</RazonSocial>
+  </Cliente>
+  <Cliente ClienteId="5">
+    <Nombre>Pedro</Nombre>
+    <Apellido>Lopez</Apellido>
+    <NroDocumento>27345678v</NroDocumento>
+    <TipoDocumento>DNI</TipoDocumento>
+    <Direccion>Las Heras 2345</Direccion>
+    <DireccionEntrega>Las Heras 2345</DireccionEntrega>
+    <Email>pedro.lopez@example.com</Email>
+    <Telefono>1134567890</Telefono>
+    <RazonSocial>Servicios Lopez</RazonSocial>
+  </Cliente>
+</Clientes>

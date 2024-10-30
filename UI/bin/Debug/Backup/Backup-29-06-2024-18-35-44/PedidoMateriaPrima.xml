@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE PedidosMateriaPrima [
+    <!ELEMENT PedidosMateriaPrima (PedidoMateriaPrima*)>
+    <!ATTLIST PedidoMateriaPrima PedidoMateriaPrimaId ID #REQUIRED>
+    <!ELEMENT PedidoMateriaPrima (Fecha)>
+    <!ELEMENT Fecha (#PCDATA)>
+]>
+<PedidosMateriaPrima>
+  
+</PedidosMateriaPrima>

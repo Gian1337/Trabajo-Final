@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Ordenes_Materiales [
+    <!ELEMENT Ordenes_Materiales (Orden_Material*)>
+    <!ATTLIST Orden_Material Orden_MaterialId ID #REQUIRED>
+    <!ELEMENT Orden_Material (OrdenId, MaterialId, Cantidad, Precio)>
+    <!ELEMENT OrdenId (#PCDATA)>
+    <!ELEMENT MaterialId (#PCDATA)>
+    <!ELEMENT Cantidad (#PCDATA)>
+    <!ELEMENT Precio (#PCDATA)>    
+]>
+<Ordenes_Materiales>
+  <Orden_Material>
+    <OrdenId>1</OrdenId>
+    <MaterialId>6</MaterialId>
+    <Cantidad>1</Cantidad>
+    <Precio>70</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>2</OrdenId>
+    <MaterialId>6</MaterialId>
+    <Cantidad>2</Cantidad>
+    <Precio>70</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>3</OrdenId>
+    <MaterialId>1</MaterialId>
+    <Cantidad>1</Cantidad>
+    <Precio>120</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>4</OrdenId>
+    <MaterialId>3</MaterialId>
+    <Cantidad>1</Cantidad>
+    <Precio>150</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>5</OrdenId>
+    <MaterialId>6</MaterialId>
+    <Cantidad>2</Cantidad>
+    <Precio>70</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>6</OrdenId>
+    <MaterialId>3</MaterialId>
+    <Cantidad>1</Cantidad>
+    <Precio>150</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>7</OrdenId>
+    <MaterialId>6</MaterialId>
+    <Cantidad>1</Cantidad>
+    <Precio>70</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>8</OrdenId>
+    <MaterialId>3</MaterialId>
+    <Cantidad>1</Cantidad>
+    <Precio>150</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>9</OrdenId>
+    <MaterialId>6</MaterialId>
+    <Cantidad>1</Cantidad>
+    <Precio>70</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>10</OrdenId>
+    <MaterialId>3</MaterialId>
+    <Cantidad>1</Cantidad>
+    <Precio>150</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>11</OrdenId>
+    <MaterialId>1</MaterialId>
+    <Cantidad>1</Cantidad>
+    <Precio>120</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>12</OrdenId>
+    <MaterialId>4</MaterialId>
+    <Cantidad>1</Cantidad>
+    <Precio>80</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>13</OrdenId>
+    <MaterialId>3</MaterialId>
+    <Cantidad>10</Cantidad>
+    <Precio>150</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>14</OrdenId>
+    <MaterialId>4</MaterialId>
+    <Cantidad>200</Cantidad>
+    <Precio>80</Precio>
+  </Orden_Material>
+  <Orden_Material>
+    <OrdenId>15</OrdenId>
+    <MaterialId>4</MaterialId>
+    <Cantidad>1</Cantidad>
+    <Precio>80</Precio>
+  </Orden_Material>
+</Ordenes_Materiales>

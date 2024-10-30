@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Materiales [
+    <!ELEMENT Materiales (Material*)>
+    <!ATTLIST Material MaterialId ID #REQUIRED>
+    <!ELEMENT Material (Codigo, Durabilidad, Aislamiento, Nombre, Precio, Tipo)>
+    <!ELEMENT Codigo (#PCDATA)>
+    <!ELEMENT Durabilidad (#PCDATA)>
+    <!ELEMENT Aislamiento (#PCDATA)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT Precio (#PCDATA)>
+    <!ELEMENT Tipo (#PCDATA)>
+]>
+<Materiales>
+    <Material  MaterialId="1">
+        <Codigo>MAT1</Codigo>
+        <Nombre>Acero Inoxidable</Nombre>
+        <Durabilidad>Alta</Durabilidad>
+        <Aislamiento>Medio</Aislamiento>
+        <Tipo>Metálico</Tipo>
+        <Precio>120</Precio>
+    </Material>
+    <Material  MaterialId="2">
+        <Codigo>MAT2</Codigo>
+        <Nombre>Polietileno</Nombre>
+        <Durabilidad>Media</Durabilidad>
+        <Aislamiento>Alto</Aislamiento>
+        <Tipo>Plástico</Tipo>
+        <Precio>45</Precio>
+    </Material>
+    <Material  MaterialId="3">
+        <Codigo>MAT3</Codigo>
+        <Nombre>Cobre</Nombre>
+        <Durabilidad>Alta</Durabilidad>
+        <Aislamiento>Bajo</Aislamiento>
+        <Tipo>Metálico</Tipo>
+        <Precio>150</Precio>
+    </Material>
+    <Material  MaterialId="4">
+        <Codigo>MAT4</Codigo>
+        <Nombre>Lana de Roca</Nombre>
+        <Durabilidad>Alta</Durabilidad>
+        <Aislamiento>Muy Alto</Aislamiento>
+        <Tipo>Mineral</Tipo>
+        <Precio>80</Precio>
+    </Material>
+    <Material  MaterialId="5">
+        <Codigo>MAT5</Codigo>
+        <Nombre>Aluminio</Nombre>
+        <Durabilidad>Alta</Durabilidad>
+        <Aislamiento>Medio</Aislamiento>
+        <Tipo>Metálico</Tipo>
+        <Precio>105</Precio>
+    </Material>
+    <Material  MaterialId="6">
+        <Codigo>MAT7</Codigo>
+        <Nombre>Policarbonato</Nombre>
+        <Durabilidad>Media</Durabilidad>
+        <Aislamiento>Medio</Aislamiento>
+        <Tipo>Plástico</Tipo>
+        <Precio>70</Precio>
+    </Material>
+</Materiales>

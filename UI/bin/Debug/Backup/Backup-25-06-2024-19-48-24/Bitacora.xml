@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Bitacoras [
+    <!ELEMENT Bitacoras (Bitacora*)>
+    <!ATTLIST Bitacora BitacoraId ID #REQUIRED>
+    <!ELEMENT Bitacora (Fecha, EmpleadoId, Evento)>
+    <!ELEMENT Fecha (#PCDATA)>
+    <!ELEMENT EmpleadoId (#PCDATA)>
+    <!ELEMENT Evento (#PCDATA)>
+]>
+<Bitacoras>
+  <Bitacora BitacoraId="1">
+    <Fecha>24/6/2024 13:33:29</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="2">
+    <Fecha>24/6/2024 13:33:45</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>BACKUP DEL SISTEMA</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="3">
+    <Fecha>24/6/2024 13:36:05</Fecha>
+    <EmpleadoId>2</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="4">
+    <Fecha>24/6/2024 13:37:07</Fecha>
+    <EmpleadoId>3</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="5">
+    <Fecha>24/6/2024 13:37:23</Fecha>
+    <EmpleadoId>4</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="6">
+    <Fecha>24/6/2024 13:37:42</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="7">
+    <Fecha>24/6/2024 13:38:29</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Registró un nuevo usuario (joseh)</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="8">
+    <Fecha>24/6/2024 13:38:53</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Rol Gerente de Producción asignado al usuario joseh</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="9">
+    <Fecha>24/6/2024 13:38:54</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Permiso Gerente de Producción retirado al usuario joseh</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="10">
+    <Fecha>24/6/2024 13:38:55</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Rol Gerente de Producción asignado al usuario joseh</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="11">
+    <Fecha>24/6/2024 13:39:06</Fecha>
+    <EmpleadoId>6</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="12">
+    <Fecha>24/6/2024 14:12:33</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="13">
+    <Fecha>24/6/2024 14:30:16</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="14">
+    <Fecha>24/6/2024 14:33:57</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="15">
+    <Fecha>24/6/2024 14:34:33</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="16">
+    <Fecha>24/6/2024 14:45:33</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="17">
+    <Fecha>24/6/2024 14:47:28</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="18">
+    <Fecha>24/6/2024 15:03:27</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="19">
+    <Fecha>24/6/2024 15:06:56</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="20">
+    <Fecha>24/6/2024 15:23:44</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="21">
+    <Fecha>24/6/2024 15:28:30</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="22">
+    <Fecha>24/6/2024 15:45:52</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="23">
+    <Fecha>24/6/2024 19:54:52</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="24">
+    <Fecha>24/6/2024 19:56:12</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="25">
+    <Fecha>24/6/2024 19:57:01</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="26">
+    <Fecha>24/6/2024 20:05:42</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="27">
+    <Fecha>24/6/2024 20:06:56</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="28">
+    <Fecha>25/6/2024 14:14:10</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="29">
+    <Fecha>25/6/2024 14:14:36</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="30">
+    <Fecha>25/6/2024 14:16:41</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="31">
+    <Fecha>25/6/2024 14:18:53</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="32">
+    <Fecha>25/6/2024 14:20:08</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="33">
+    <Fecha>25/6/2024 14:24:58</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="34">
+    <Fecha>25/6/2024 14:25:17</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="35">
+    <Fecha>25/6/2024 14:28:21</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="36">
+    <Fecha>25/6/2024 14:34:08</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="37">
+    <Fecha>25/6/2024 14:34:51</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="38">
+    <Fecha>25/6/2024 14:35:34</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="39">
+    <Fecha>25/6/2024 14:35:54</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="40">
+    <Fecha>25/6/2024 14:36:27</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="41">
+    <Fecha>25/6/2024 14:40:07</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="42">
+    <Fecha>25/6/2024 14:40:55</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="43">
+    <Fecha>25/6/2024 14:41:24</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="44">
+    <Fecha>25/6/2024 14:52:40</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="45">
+    <Fecha>25/6/2024 14:58:18</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="46">
+    <Fecha>25/6/2024 14:59:50</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="47">
+    <Fecha>25/6/2024 15:13:45</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="48">
+    <Fecha>25/6/2024 19:33:37</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="49">
+    <Fecha>25/6/2024 19:34:09</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>BACKUP DEL SISTEMA</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="50">
+    <Fecha>25/6/2024 19:36:24</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Orden de produccion N°5 generada</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="51">
+    <Fecha>25/6/2024 19:38:24</Fecha>
+    <EmpleadoId>3</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="52">
+    <Fecha>25/6/2024 19:43:08</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="53">
+    <Fecha>25/6/2024 19:48:12</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>Se ha loggeado</Evento>
+  </Bitacora>
+  <Bitacora BitacoraId="54">
+    <Fecha>25/6/2024 19:48:24</Fecha>
+    <EmpleadoId>1</EmpleadoId>
+    <Evento>BACKUP DEL SISTEMA</Evento>
+  </Bitacora>
+</Bitacoras>
