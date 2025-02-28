@@ -43,3 +43,6 @@ El sistema utiliza archivos XML como base de datos. Los archivos se crearán aut
 - Patrón Repository para el acceso a datos
 - Mapeo objeto-XML personalizado
 - Interfaz de usuario Windows Forms
+
+## Instalador
+https://www.mediafire.com/file/vi86jnmmbtow8t9/Trabajo_Final.exe/file
